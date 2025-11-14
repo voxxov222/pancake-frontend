@@ -4,11 +4,11 @@ export const baseColors = {
   white: "white",
   failure: "#ED4B9E",
   failure33: "#ED4B9E33",
-  primary: "#1FC7D4",
-  primary0f: "#1FC7D40f",
-  primary3D: "#1FC7D43D",
-  primaryBright: "#53DEE9",
-  primaryDark: "#0098A1",
+  primary: "#00CED1", // Cyan from holographic gradient
+  primary0f: "#00CED10f",
+  primary3D: "#00CED13D",
+  primaryBright: "#00E5FF", // Bright cyan
+  primaryDark: "#008B8B",
   success: "#31D0AA",
   success19: "#31D0AA19",
   warning: "#FFB237",
@@ -19,10 +19,12 @@ export const baseColors = {
 export const additionalColors = {
   binance: "#F0B90B",
   overlay: "#452a7a",
-  gold: "#FFC700",
+  gold: "#FFD700", // Gold from holographic gradient
   silver: "#B2B2B2",
   bronze: "#E7974D",
   yellow: "#D67E0A",
+  purple: "#9D4EDD", // Purple from holographic gradient
+  violet: "#8A2BE2",
 };
 
 export const lightColors = {
@@ -32,11 +34,11 @@ export const lightColors = {
   blue10: "#ECF6FE",
   blue20: "#C3E5FC",
   blue60: "#2882CC",
-  secondary: "#7645D9",
+  secondary: "#9D4EDD", // Purple from holographic gradient
   secondary10: "#F6F4FB",
   secondary20: "#E8E2EE",
-  secondary60: "756595",
-  secondary80: "#7645D980",
+  secondary60: "#8A2BE2", // Violet
+  secondary80: "#9D4EDD80",
   background: "#FAF9FA",
   backgroundDisabled: "#E9EAEB",
   backgroundAlt: "#FFFFFF",
@@ -78,15 +80,15 @@ export const lightColors = {
   warning20: "#F9D9B8",
   warning60: "#AB6502",
   bubblegum: "#F3EFFF",
-  gradientPrimary: "linear-gradient(228.54deg, #1FC7D4 -13.69%, #7645D9 91.33%)",
+  gradientPrimary: "linear-gradient(228.54deg, #00E5FF -13.69%, #9D4EDD 50%, #FFD700 91.33%)", // Holographic gradient
   gradientBubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
   gradientInverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #E5FDFF 100%)",
   gradientCardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
-  gradientBlue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
-  gradientViolet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
+  gradientBlue: "linear-gradient(180deg, #00E5FF 0%, #00CED1 100%)", // Cyan gradient
+  gradientViolet: "linear-gradient(180deg, #9D4EDD 0%, #8A2BE2 100%)", // Purple gradient
   gradientVioletAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
-  gradientGold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-  gradientBold: "linear-gradient(#53DEE9, #7645D9)",
+  gradientGold: "linear-gradient(180deg, #FFD700 0%, #DAA520 100%)", // Gold gradient
+  gradientBold: "linear-gradient(#00E5FF, #9D4EDD, #FFD700)", // Holographic bold
 };
 
 export const darkColors = {
@@ -96,11 +98,11 @@ export const darkColors = {
   blue10: "#0B3557",
   blue20: "#0E4572",
   blue60: "#72B8F1",
-  secondary: "#A881FC",
+  secondary: "#9D4EDD", // Purple from holographic gradient
   secondary10: "#322B48",
   secondary20: "#4B3B5F",
-  secondary60: "#756595",
-  secondary80: "#A881FC80",
+  secondary60: "#8A2BE2", // Violet
+  secondary80: "#9D4EDD80",
   background: "#08060B",
   backgroundDisabled: "#3c3742",
   backgroundAlt: "#27262c",
@@ -143,13 +145,13 @@ export const darkColors = {
   warning20: "#754300",
   warning60: "#D67E0A",
   bubblegum: "#160F1E",
-  gradientPrimary: "linear-gradient(228.54deg, #1FC7D4 -13.69%, #9A6AFF 91.33%)",
+  gradientPrimary: "linear-gradient(228.54deg, #00E5FF -13.69%, #9D4EDD 50%, #FFD700 91.33%)", // Holographic gradient
   gradientBubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
   gradientInverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
   gradientCardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
-  gradientBlue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
-  gradientViolet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
+  gradientBlue: "linear-gradient(180deg, #008B8B 0%, #00CED1 100%)", // Cyan dark gradient
+  gradientViolet: "linear-gradient(180deg, #6C4999 0%, #9D4EDD 100%)", // Purple dark gradient
   gradientVioletAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
-  gradientGold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
-  gradientBold: "linear-gradient(#53DEE9, #9A6AFF)",
+  gradientGold: "linear-gradient(180deg, #FFD700 0%, #DAA520 100%)", // Gold gradient
+  gradientBold: "linear-gradient(#00E5FF, #9D4EDD, #FFD700)", // Holographic bold
 };
